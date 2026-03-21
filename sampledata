@@ -1,0 +1,7 @@
+data = [
+    {'area': '1000', 'price': '1500000'},
+    {'area': '1500', 'price': '2500000'},
+    {'area': '2000', 'price': '3500000'},
+]
+df = pd.DataFrame(data)
+print(df)
